@@ -20,3 +20,13 @@
     border: 1px solid black;
     border-radius: 5px;
 }
+
+.thumb .thumb-friend-name {
+    position: relative;
+    visibility: hidden;
+
+}
+
+.thumb-friend-name:hover {   
+    visibility: visible;    
+}

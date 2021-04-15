@@ -2,12 +2,22 @@
  * Initializes the Piece with its color.
  */
 function Piece (color) {
+    this.color = color;
+   
 }
 
 /**
  * Returns the color opposite the current piece.
  */
 Piece.prototype.oppColor = function () {
+    debugger
+    if (this.color == "white") {
+        this.color = "black";
+    } else {
+        this.color = "white";
+    }
+
+    return this.color;
 };
 
 /**

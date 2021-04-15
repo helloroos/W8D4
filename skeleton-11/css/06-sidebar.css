@@ -15,3 +15,33 @@
     border-radius: 5px;
     position: relative;
 }
+
+.profile-name {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.profile-description {
+    margin: 20px 0;
+}
+
+.profile-info {
+    margin: 20px 0;
+    list-style: none;
+}
+
+.profile-info > li:first-child {
+    border-top: 1px solid #ccc;
+}
+
+.profile-info > li {
+    border-bottom: 1px solid #ccc;
+    display: block;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.profile-info > li:hover {
+    background-color: #ccc;
+}
